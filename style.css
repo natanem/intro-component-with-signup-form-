@@ -24,10 +24,11 @@ body{
 section{
     width: 100%;
     max-width: 90rem;
+    margin: auto;
     /* height: 50rem; */
     background:var(--red) url(./images/bg-intro-desktop.png) no-repeat center center/cover;
     display: grid;
-    padding: 7.25rem;
+    padding: 0 10.3125rem;
     grid-template-columns: repeat(2, 1fr);
     gap: 2.75rem;
 }
@@ -35,7 +36,8 @@ section{
 section .content{
     width: 33.75rem;
     color: #fff;
-    align-self: center;
+    margin-top: 18.125rem;
+    margin-bottom: 17.5625rem;
 }
 section .content h1{
     font-size: 3.125rem;
@@ -45,6 +47,10 @@ section .content h1{
 section .content p{
     font-size: 1rem;
     margin-top: 1.3rem;
+}
+section .contact{
+    width: 33.75rem;
+    margin: 7.5625rem 0;
 }
 section .contact .banner{
     height: 3.75rem;
@@ -83,7 +89,6 @@ section .contact form button{
     font-size: 0.875rem;
     font-weight: 600;
     text-transform: uppercase;
-    margin-bottom: 0.2rem;
 }
 section .contact form input::placeholder{
     font-size-adjust: 0.875rem;
@@ -94,7 +99,8 @@ section .contact form .input-group .error{
     font-size: 0.6875rem;
     color: var(--red);
     text-align: right;
-    opacity: 0;
+    display: none;
+    margin-top: 0.625rem;
 }
 section .contact form button{
     font-size: .94rem;
