@@ -94,6 +94,7 @@ section .contact form .input-group .error{
     font-size: 0.6875rem;
     color: var(--red);
     text-align: right;
+    opacity: 0;
 }
 section .contact form button{
     font-size: .94rem;
